@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "cajun-cooking",
+    "slug": "cajun-cooking",
+    "description": "Recipes App",
+    "owner": "duffster22",
+    "privacy": "hidden",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.duffster22.cajuncooking"
+    },
+    "android": {
+      "package": "com.duffster22.cajuncooking",
+      "versionCode": 1
+    }
+  }
+}
